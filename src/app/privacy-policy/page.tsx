@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Introduction</h2>
           <p>
-            Welcome to Indalo Digital Ltd ("we," "our," or "us"). We respect your privacy and are committed to protecting your personal data. 
+            Welcome to Indalo Digital Ltd (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We respect your privacy and are committed to protecting your personal data. 
             This privacy policy explains how we collect, use, and safeguard your information when you visit our website or use our services.
           </p>
         </section>
@@ -48,7 +48,7 @@ export default function PrivacyPolicy() {
           <ul className="list-disc pl-6 mb-4 space-y-2">
             <li>Providing and improving our services</li>
             <li>Responding to your inquiries and requests</li>
-            <li>Sending you updates, newsletters, and marketing communications (if you've opted in)</li>
+            <li>Sending you updates, newsletters, and marketing communications (if you&apos;ve opted in)</li>
             <li>Analyzing website usage to improve user experience</li>
             <li>Ensuring the security and integrity of our website</li>
           </ul>
@@ -81,7 +81,7 @@ export default function PrivacyPolicy() {
             <li>The right to data portability</li>
           </ul>
           <p>
-            To exercise these rights, please contact us using the information provided in the "Contact Us" section below.
+            To exercise these rights, please contact us using the information provided in the &quot;Contact Us&quot; section below.
           </p>
         </section>
 
