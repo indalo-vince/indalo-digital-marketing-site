@@ -1,26 +1,107 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
+  /* Brand Colors */
+  --primary: #1A3D89;
+  --primary-custom-rgb: 26, 61, 137;
+  --secondary: #1A5FED;
+  --secondary-custom-rgb: 26, 95, 237;
+  --highlight: #1FF084;
+  --highlight-custom-rgb: 31, 240, 132;
+  --complementary: #EDA81A;
+  --complementary-custom-rgb: 237, 168, 26;
+  --background: #F6F6F6;
+  --text: #000000;
+  
+  /* Theme variables */
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-foreground: var(--text);
+  --font-heading: var(--font-montserrat);
+  --font-body: var(--font-zen-kaku);
 }
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  font-family: var(--font-body), Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), Arial, sans-serif;
+  font-weight: 700;
+}
+
+/* Custom utility classes */
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.highlight-text {
+  color: var(--highlight);
+}
+
+.primary-text {
+  color: var(--primary);
+}
+
+.secondary-text {
+  color: var(--secondary);
+}
+
+.nav-link {
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--secondary);
+}
+
+.bg-primary-custom {
+  background-color: var(--primary);
+}
+
+.bg-secondary-custom {
+  background-color: var(--secondary);
+}
+
+.bg-highlight-custom {
+  background-color: var(--highlight);
+}
+
+.bg-background-custom {
+  background-color: var(--background);
+}
+
+.text-primary-custom {
+  color: var(--primary);
+}
+
+.text-white-custom {
+  color: white;
 }
