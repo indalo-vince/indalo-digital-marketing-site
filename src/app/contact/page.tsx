@@ -126,7 +126,7 @@ export default function ContactPage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-8 text-primary-custom">Get in Touch</h1>
             <p className="text-lg md:text-xl max-w-3xl mx-auto text-gray-700">
               Have questions about our services or want to discuss how we can help your removals business? 
-              We're here to help.
+              We&apos;re here to help.
             </p>
           </div>
         </div>
@@ -142,7 +142,7 @@ export default function ContactPage() {
               
               {formState.succeeded && (
                 <div className="mb-6 p-4 bg-green-50 border border-green-200 text-green-700 rounded-md">
-                  Thank you for your message! We'll get back to you as soon as possible.
+                  Thank you for your message! We&apos;ll get back to you as soon as possible.
                 </div>
               )}
               
