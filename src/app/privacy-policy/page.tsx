@@ -103,13 +103,6 @@ export default function PrivacyPolicy() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Children's Privacy</h2>
-          <p>
-            Our website is not intended for children under 16 years of age. We do not knowingly collect personal information from children under 16. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.
-          </p>
-        </section>
-
-        <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Changes to Our Privacy Policy</h2>
           <p>
             We may update our privacy policy from time to time. Any changes will be posted on this page with an updated revision date. We encourage you to review this privacy policy periodically for any changes.
