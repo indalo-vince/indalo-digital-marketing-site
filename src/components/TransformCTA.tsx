@@ -18,9 +18,6 @@ export function TransformCTA({ className = "" }: TransformCTAProps) {
         </div>
         
         <div className="flex justify-center">
-          <Link href="/#services" className="btn-secondary mr-4">
-            Explore Our Services
-          </Link>
           <Link href="/contact" className="btn-primary">
             Contact Us Now
           </Link>
