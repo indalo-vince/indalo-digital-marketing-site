@@ -173,7 +173,7 @@ export default function Home() {
               </div>
               <ServiceCard
                 title="Technology Review & Strategy"
-                description="Comprehensive assessment of your current technology stack and strategic recommendations for improvement."
+                description="Comprehensive assessment your current use of technology and our strategic recommendations for improvement."
                 solutionType="technology"
                 solutionTitle="Technology Modernization"
                 icon={
@@ -186,7 +186,7 @@ export default function Home() {
               
               <ServiceCard
                 title="Website Design, Build, and SEO"
-                description="Custom website development with industry-specific features and search engine optimization to attract more customers."
+                description="Custom website development with removals industry specific features and search engine optimization to attract more, better customers."
                 solutionType="technology"
                 solutionTitle="Technology Modernization"
                 icon={
@@ -199,7 +199,7 @@ export default function Home() {
 
               <ServiceCard
                 title="AI Training"
-                description="Teaching you and your team how to use and leverage the latest AI technologies to improve your business."
+                description="Teaching you and your team how to use and leverage the latest AI technologies to improve your profit."
                 solutionType="technology"
                 solutionTitle="Technology Modernization"
                 icon={
@@ -280,7 +280,7 @@ export default function Home() {
               
               <ServiceCard
                 title="Process Optimisation"
-                description="Streamlining your business processes to increase efficiency, reduce costs, and improve customer satisfaction."
+                description="Increase efficiency, improve customer satisfaction, and reduce costs by streamlining your business processes."
                 solutionType="operational"
                 solutionTitle="Operational Efficiency"
                 icon={
@@ -293,7 +293,7 @@ export default function Home() {
 
               <ServiceCard
                 title="Export and Customs"
-                description="Opening new markets through international expansion with proper customs documentation and compliance."
+                description="International expansion to improve both turnover and profit - compliant solutions."
                 solutionType="operational"
                 solutionTitle="Operational Efficiency"
                 icon={
